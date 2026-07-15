@@ -27,7 +27,7 @@ body {
   text-decoration: none;
 }
 .container {
-  background: linear-gradient(rgba(0, 0, 0, 0)), url(imageP.png);
+  background: linear-gradient(rgba(0, 0, 0, 0)), url("/HTML/imageP.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
