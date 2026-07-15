@@ -1,0 +1,65 @@
+.portfolio-container {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  justify-content: space-evenly;
+  color: white;
+}
+.name {
+  color: rgb(232, 229, 243);
+  padding: 5px;
+  border-radius: 60px;
+  font-style: normal;
+  font-size: 40px;
+  font-weight: bold;
+}
+.brunhilda {
+  color: rgb(162, 146, 233);
+  font-size: 2rem;
+}
+html{
+  font-size:40px ;
+}
+
+body {
+  background-color: rgb(17, 17, 17);
+}
+.logo {
+  font-size: 40px;
+}
+.logoo {
+  color: rgb(110, 110, 204);
+}
+img {
+  display: block;
+  margin-top: 30px;
+  parding: 20px;
+  width: 300px;
+  hight: 300px;
+  background-color: transparent;
+  transform: rotate(-25deg);
+}
+.name {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.table_section {
+  background-color: white;
+  padding: 20px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: solid thin black;
+  padding: 5px;
+}
+th {
+  background-color: rgb(201, 188, 172);
+}
+<input type text

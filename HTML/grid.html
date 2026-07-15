@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .grid-container {
+        display: grid;
+        gap: 10px;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-rows: 1fr 3fr;
+      }
+      .grid-container > div {
+        background-color: rgb(81, 233, 233);
+      }
+
+      .grid-container1 {
+        gap: 10px;
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas:
+          "header header header"
+          "sidebar main photos"
+          "sidebar main photos"
+          "sidebar main others"
+          "sidebar main others"
+          "footer footer footer";
+      }
+      .grid-container1 > div {
+        background-color: rgb(26, 236, 236);
+      }
+      .grid-a {
+        grid-area: header;
+      }
+      .grid-b {
+        grid-area: sidebar;
+      }
+      .grid-c {
+        grid-area: main;
+      }
+      .grid-d {
+        grid-area: others;
+      }
+      .grid-e {
+        grid-area: footer;
+      }
+      .grid-f {
+        grid-area: photos;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid-container">
+      <div>grid 1</div>
+      <div>Grid 2</div>
+      <div>Grid 3</div>
+      <div>Grid 4</div>
+      <div>Grid 5</div>
+      <div>Grid 6</div>
+    </div>
+
+    <div class="grid-container1">
+      <div class="grid-a">Header</div>
+      <div class="grid-b">Sidebar</div>
+      <div class="grid-c">Main</div>
+      <div class="grid-d">Others</div>
+      <div class="grid-e">Footer</div>
+      <div class="grid-f">Photos</div>
+    </div>
+
+    <footer></footer>
+  </body>
+</html>

@@ -1,0 +1,68 @@
+.portfolio-container {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  justify-content: space-evenly;
+  color: white;
+  border-radius: 50%;
+}
+html {
+  background-color: rgb(49, 49, 54);
+}
+.portfolio {
+  display: flex;
+}
+.portfolio-profile {
+  display: flex;
+}
+.port {
+  display: flex;
+  font-size: xxx-large;
+  width: 20px;
+  padding-left: 5px;
+}
+
+.profile {
+  display: flex;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.logo {
+  display: flex;
+  color: rgb(121, 25, 25);
+}
+.logoo {
+  display: flex;
+  color: rgb(137, 46, 155);
+}
+.image-profile {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  width: 70%;
+  height: 70%;
+  margin-left: 50%;
+  margin-bottom: 60%;
+  margin-top: -20%;
+}
+
+.brun:hover {
+  transition: 3s;
+  display: block;
+  width: 500px;
+  font-size: x-large;
+  font-weight: bold;
+  padding-top: 50px;
+}
+.hello {
+  font-size: xxx-large;
+  color: rgb(65, 5, 5);
+}
+.describtion {
+  font-size: large;
+}
+.describe {
+  font-size: large;
+}

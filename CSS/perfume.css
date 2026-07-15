@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 400px;
+  justify-content: center;
+  align-content: center;
+}
+.side-1 {
+}
+.side-2 {
+  background-color: white;
+  text-align: center;
+  padding: 15px;
+}
+html {
+  background-color: rgb(180, 41, 41);
+}
+.image {
+  width: 250px;
+}
+.words {
+  text-align: left;
+}
+.price {
+  font-size: x-large;
+  color: green;
+  font-weight: bold;
+  text-align: left;
+}
+.botton {
+  text-decoration: none;
+  color: white;
+  background-color: green;
+  border: none;
+  width: 160px;
+  padding-top: 7px;
+  padding-bottom: 5px;
+  border-radius: 6px;
+}
+.perfume {
+  font-size: small;
+  text-align: left;
+}
+.gabrielle {
+  text-align: left;
+}
+.pricetag {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.icon {
+  width: 25px;
+  height: 24px;
+}

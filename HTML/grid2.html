@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        display: grid;
+        gap: 10px;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-areas:
+          "header header header"
+          "dashboard analytic analytic"
+          "dashboard analytic analytic"
+          "dashboard data galary"
+          "dashboard data galary"
+          "dashboard data galary"
+          "footers footers galary";
+      }
+      .container > div {
+        background-color: aqua;
+      }
+      .div1 {
+        grid-area: header;
+      }
+      .div2 {
+        grid-area: dashboard;
+      }
+      .div3 {
+        grid-area: analytic;
+      }
+      .div4 {
+        grid-area: data;
+      }
+      .div5 {
+        grid-area: galary;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 5px;
+      }
+      .div5 > div {
+        color: rgb(231, 223, 220);
+        background-color: rgba(88, 62, 14, 0.788);
+      }
+      .div6 {
+        grid-area: footers;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="div1">Header</div>
+      <div class="div2">Dashboard</div>
+      <div class="div3">Analytic</div>
+      <div class="div4">Data</div>
+      <div class="div5">
+        <div>image</div>
+        <div>image</div>
+        <div>image</div>
+        <div>image</div>
+        <div>image</div>
+        <div>image</div>
+        <div>image</div>
+        <div>image</div>
+        <div>image</div>
+      </div>
+      <div class="div6">Footers</div>
+    </div>
+  </body>
+</html>

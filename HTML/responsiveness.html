@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        display: flex;
+        flex: 1;
+        background-color: rgb(20, 20, 53);
+        color: white;
+        justify-content: space-around;
+      }
+
+      .mobile-view {
+        background-color: rgb(10, 10, 32);
+        display: none;
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+      }
+
+      @media (max-width: 480px) {
+        .container {
+          background-color: rgb(4, 4, 29);
+          color: rgb(240, 237, 237);
+          flex-direction: column;
+          justify-content: end;
+          align-items: end;
+          display: none;
+        }
+
+        .mobile-view {
+          display: flex;
+          justify-content: end;
+          align-items: end;
+        }
+        nav {
+          justify-content: end;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="container">
+          <p>Home</p>
+          <p>About</p>
+          <p>Skill</p>
+          <p>Contact</p>
+          <p>Review</p>
+          <p>Galary</p>
+        </div>
+      </nav>
+    </header>
+  </body>
+</html>
+<div class="mobile-view">
+  <img src="menue icon.png" class="menu-icon" />
+</div>

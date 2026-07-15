@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .example-btn {
+        margin-top: -80%;
+      }
+      .container {
+        display: flex;
+        gap: 10px;
+      }
+      .container > div {
+        flex: 1;
+        height: 50px;
+      }
+      img {
+        height: 50px;
+        width: 50px;
+      }
+      .parent1 {
+        display: flex;
+      }
+      .subdiv-1 {
+        display: flex;
+      }
+      .parent2 {
+        display: flex;
+      }
+      .parent3 {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        gap: 5px;
+      }
+      .parent2 > input {
+        flex: 2;
+      }
+      .parent3 > img {
+        border-radius: 50%;
+      }
+      .parent3 > button {
+        height: 100%;
+        border: none;
+        box-shadow: 5px 5px 15px 7px rgba(0, 0, 0, 0.212);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="parent1">
+        <div>
+          <img src="hamburger icon.png" />
+        </div>
+
+        <div class="subdiv-1">
+          <img src="youtube logo.png" />
+          <h3>YouTube</h3>
+        </div>
+      </div>
+
+      <div class="parent2">
+        <input placeholder="Search" />
+        <img src="audio.png" />
+      </div>
+
+      <div class="parent3">
+        <button>+ Create</button>
+        <img src="bell.png" />
+        <img src="image2.png" />
+      </div>
+    </div>
+  </body>
+</html>

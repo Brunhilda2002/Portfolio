@@ -1,0 +1,70 @@
+/* .name {
+  color: blue;
+} */
+
+#name_id {
+  color: brown;
+  background-color: aqua;
+  padding: 20px;
+  font-weight: bold;
+  font-size: 40px;
+  border-radius: 60px;
+}
+.brun {
+  color: rgb(121, 121, 15);
+}
+img {
+  display: block;
+  margin-top: 30px;
+  padding-bottom: 20px;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  background-color: rgb(43, 183, 226);
+}
+img:hover {
+  transform: rotate(360deg);
+  transition: 2s;
+}
+
+/* input {
+  background-color: aqua;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+} */
+.container {
+  background-color: rgb(241, 241, 247);
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.link-element {
+  text-decoration: none;
+}
+/* i am using this blah blaha jhjhj */
+.contact-btn {
+  background-color: rgb(65, 65, 112);
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 7px;
+  padding: 5px;
+}
+.contact-btn:hover {
+  background-color: white;
+  color: black;
+  border: solid;
+  border-width: thin;
+  transition: 2s;
+}
+
+input {
+  margin-bottom: 20px;
+}
+form {
+  text-align: center;
+  background-color: rgb(6, 6, 39);
+  padding: 25px;
+  color: white;
+}

@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas:
+          "A B C"
+          "A B C"
+          "A B C"
+          "A B C"
+          "A B C"
+          "A B C"
+          "D E E "
+          "D E E "
+          "D E E "
+          "D E E "
+          "D E E "
+          "F E E"
+          "F E E"
+          "F E E";
+
+        gap: 20px;
+        padding:;
+      }
+      .container > div {
+        border: solid white;
+      }
+      .div1 {
+        grid-area: A;
+        background-color: rgb(36, 241, 115);
+      }
+      .div2 {
+        grid-area: B;
+        background-color: rgb(203, 241, 36);
+      }
+      .div3 {
+        grid-area: C;
+        background-color: rgb(183, 36, 241);
+      }
+      .div4 {
+        grid-area: D;
+        background-color: rgb(236, 20, 128);
+      }
+      .div5 {
+        grid-area: E;
+        background-color: rgb(36, 241, 53);
+      }
+      .div6 {
+        grid-area: F;
+        background-color: rgb(39, 36, 241);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="div1">A</div>
+      <div class="div2">B</div>
+      <div class="div3">C</div>
+      <div class="div4">D</div>
+      <div class="div5">E</div>
+      <div class="div6">F</div>
+    </div>
+  </body>
+</html>
