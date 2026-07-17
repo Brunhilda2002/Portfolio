@@ -52,10 +52,11 @@ main {
   display: flex;
   flex-direction: column;
   font-size: large;
-  padding-top: 100px;
-  padding-left: 60px;
   font-family: fantasy;
   font-style: italic;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
 }
 .span {
   color: rgb(10, 4, 44);
