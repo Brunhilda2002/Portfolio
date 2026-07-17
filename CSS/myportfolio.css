@@ -294,6 +294,7 @@ form {
 @media (max-width: 480px) {
   html {
     margin-left: -8px;
+    padding: 0 15px;
      
   }
   .nav {
@@ -352,12 +353,6 @@ form {
 }
 footers {
 justify-content: center;
-}
-.texture1 {
-  padding-left: 15px;
-}
-.visua{
-  padding-left: 15px;
 }
 }
 
