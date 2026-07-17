@@ -8,6 +8,10 @@ body,html {
   overflow-x: hidden;
 
 }
+.ayeah {
+  font-size: xxx-large;
+  color: rgb(49, 23, 2);
+}
 .nav {
   display: flex;
   width: 100%;
@@ -174,6 +178,8 @@ main {
 }
 .lemon {
   font-size: larger;
+  color:rgb(59, 1, 1);
+  font-weight: bold;
 
 }
 .h7 {
@@ -193,7 +199,7 @@ main {
 .card > div {
   height: 300px;
   padding: 6px;
-  background-color: rgba(27, 6, 77, 0.671);
+  background-color: rgba(66, 10, 139, 0.562);
   border-radius: 10px;
 }
 .icontik {
@@ -284,6 +290,9 @@ form {
 }
 
 @media (max-width: 480px) {
+  html {
+    margin-left: -8px;
+  }
   .nav {
     display: flex;
     flex-direction: column;
