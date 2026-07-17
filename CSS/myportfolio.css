@@ -58,7 +58,7 @@ main {
   transition: 0.9s;
 }
 .container {
-  background: linear-gradient(rgba(0, 0, 0, 0)), url("/HTML/imageP.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0)), url("/HTML/imageP.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
