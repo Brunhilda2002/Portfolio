@@ -4,24 +4,39 @@ html {
 }
 body {
   width: 100vw;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+
 }
 .nav {
   display: flex;
   width: 100%;
   justify-content: space-around;
-  background-color: rgba(73, 15, 51, 0.226);
+  background-color: rgba(192, 31, 130, 0.459);
   color: white;
   position: fixed;
+  font-size: larger;
+  align-items: center;
   top: 0;
 }
 .navigation {
   display: flex;
   justify-content: space-around;
-  gap: 20px;
   align-items: center;
+  width: 100%;
+
+}
+.navigation > a {
+ 
+  text-decoration: none;
+  font-weight: bold;
+  
+
+
 }
 main {
-  margin-top: 80px;
+  margin-top: 95px;
 }
 .view1 {
   display flex;
@@ -56,7 +71,7 @@ main {
   font-style: italic;
   justify-content: center;
   align-items: center;
-  width: 100vw;
+  width: 100%;
 }
 .span {
   color: rgb(10, 4, 44);
@@ -67,12 +82,16 @@ main {
   color: rgba(56, 6, 37, 0.603);
 }
 .container2 {
+
 }
 .space {
   font-size: xx-large;
   font-style: italic;
   color: brown;
   text-align: center;
+}
+.navigation{
+  display: flex;
 }
 .image1 {
   width: 30%;
@@ -96,6 +115,41 @@ main {
   font-size: xx-large;
   font-style: italic;
   margin-top: 60px;
+}
+.some {
+  text-align: center;
+}
+.iconf{
+  width: 50px;
+  border-radius: 60px;
+}
+.iconi {
+  width: 50px;
+  border-radius: 60px;
+}
+.icon3 {
+  width: 50px;
+  border-radius: 60px;
+
+}
+.icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  
+  
+}
+.possition {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 10px 0;
+  
+  margin-top: 100px;
+  margin-bottom: 100px;
+  background-color: rgba(122, 91, 173, 0.445);
+  justify-content: center;
+
 }
 .section4 {
   margin-top: 100px;
@@ -141,6 +195,11 @@ main {
   padding: 6px;
   background-color: rgba(27, 6, 77, 0.671);
   border-radius: 10px;
+}
+.icontik {
+  width: 50px;
+  border-radius: 60px;
+  
 }
 .note {
   font-size: x-large;
@@ -220,6 +279,8 @@ form {
   color: rgb(251, 250, 252);
   text-align: center;
   background-color: rgba(37, 27, 66, 0.877);
+  padding:  7px 0;
+
 }
 
 @media (max-width: 480px) {
@@ -231,12 +292,12 @@ form {
     background-color: rgba(192, 31, 130, 0.459);
     position: fixed;
     top: 0;
+    padding: 30px;
   }
-  p {
-    margin: 0 1px;
-  }
+  
+  
   main {
-    margin-top: 100px;
+    margin-top: 215px;
   }
 
   .card {
@@ -248,7 +309,10 @@ form {
   .navigation {
     display: flex;
     justify-content: space-around;
-    gap: 5px;
+   flex-wrap: row;
+    width: 100%;
+  
+  
   }
   .image1 {
     display: flex;
@@ -265,6 +329,9 @@ form {
 }
 .lemon {
   padding-top: 30px;
+}
+footers {
+justify-content: center;
 }
 }
 
