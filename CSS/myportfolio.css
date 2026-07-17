@@ -69,10 +69,9 @@ main {
 }
 .space {
   font-size: xx-large;
-  padding-left: 500px;
   font-style: italic;
   color: brown;
-  align-items: center;
+  text-align: center;
 }
 .image1 {
   width: 30%;
