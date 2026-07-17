@@ -80,6 +80,7 @@ main {
   color: rgb(10, 4, 44);
   text-align: center;
   width: 50%;
+  font-size: xx-large;
 }
 .port {
   color: rgba(56, 6, 37, 0.603);
@@ -119,6 +120,7 @@ main {
   font-size: xx-large;
   font-style: italic;
   margin-top: 60px;
+
 }
 .some {
   text-align: center;
@@ -292,6 +294,7 @@ form {
 @media (max-width: 480px) {
   html {
     margin-left: -8px;
+     
   }
   .nav {
     display: flex;
@@ -349,6 +352,12 @@ form {
 }
 footers {
 justify-content: center;
+}
+.texture1 {
+  padding-left: 15px;
+}
+.visua{
+  padding-left: 15px;
 }
 }
 
