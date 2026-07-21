@@ -1,0 +1,133 @@
+html {
+  background: #5b1285;
+}
+.navigation {
+  background-color: rgba(255, 255, 255, 0.842);
+}
+.portfolio-logo {
+  display: flex;
+  width: 30px;
+  border-radius: 6px;
+}
+.rest {
+  font-size: xx-large;
+  font-weight: bold;
+  color: rgb(189, 162, 10);
+}
+.rest1 {
+  color: rgb(0, 83, 11);
+  font-style: italic;
+  font-size: x-large;
+}
+.navi {
+  display: flex;
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+  font-weight: bold;
+}
+
+.hero-section {
+  position: relative;
+}
+.orange-section {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 55%;
+  height: 280px;
+  background: #f5a000;
+  border-bottom-left-radius: 180px;
+}
+.hero-title {
+  display: flex;
+  align-items: center;
+  font-size: xx-large;
+}
+.name1 {
+  color: rgb(224, 224, 9);
+  font-size: x-large;
+  font-weight: bold;
+}
+.logo {
+  font-size: 5rem;
+  position: relative;
+  z-index: 2;
+  color: white;
+  padding-top: 80px;
+}
+
+.note {
+  display: flex;
+  flex-direction: column;
+  font-size: large;
+  font-weight: bold;
+  color: rgb(174, 230, 221);
+  padding-right: 30px;
+  padding-bottom: 30px;
+}
+.food {
+  color: orange;
+}
+.meal1 {
+  width: 75%;
+  padding-left: 36px;
+  border-radius: 50%;
+}
+.view-more {
+  display: flex;
+  color: white;
+  font-weight: bold;
+  font-size: large;
+  background-color: blue;
+  border: none;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+.popular-dishes {
+  color: #f5a000;
+}
+.view-more:hover {
+  background-color: white;
+  color: black;
+  transition: 0.9s;
+}
+.section2 {
+  font-size: larger;
+  color: white;
+}
+
+.images2 {
+  width: 200px;
+  border-radius: 50%;
+  height: 200px;
+  float: left;
+}
+
+.images4 {
+  width: 200px;
+  border-radius: 50%;
+  height: 200px;
+  float: right;
+}
+.compliments {
+  font-size: xx-large;
+  font-weight: bold;
+  color: rgb(240, 240, 108);
+  font-style: italic;
+}
+.footers {
+  display: block;
+  justify-content: space-around;
+  text-align: center;
+  color: white;
+  margin-top: 150px;
+  background-color: #3a470367;
+}
+@media (max-width: 480px) {
+}

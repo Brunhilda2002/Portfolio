@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="next" href="business.html" />
+    <link rel="icon" href="/images restauranticon.png" type="image/png" />
+    <link rel="stylesheet" href="business.css" />
+    <style>
+      html {
+        background-color: purple;
+      }
+      .navigation {
+  background-color: rgba(255, 255, 255, 0.842);
+}
+.portfolio-logo {
+  display: flex;
+  width: 30px;
+  border-radius: 6px;
+}
+.rest {
+  font-size: xx-large;
+  font-weight: bold;
+  color: rgb(189, 162, 10);
+}
+.rest1 {
+  color: rgb(0, 83, 11);
+  font-style: italic;
+  font-size: x-large;
+}
+.navi {
+  display: flex;
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+  font-weight: bold;
+}
+
+      .login {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(179, 134, 12, 0.774);
+    width: 50%;
+    border-radius: 6px;
+    padding: 30px;
+    margin-left: 150px;
+
+      }
+  .submit {
+  border: none;
+  padding: 9px;
+  background-color: rgb(31, 47, 189);
+  border-radius: 6px;
+  width: fit-content;
+  margin-left: 130px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+.submit:hover {
+  background-color: rgb(225, 227, 240);
+  color: black;
+  font-weight: bold;
+  transition: 0.9s;
+}
+.footers {
+  display: block;
+  justify-content: space-around;
+  text-align: center;
+  color: white;
+  margin-top: 150px;
+  background-color: #3a47035e;
+}
+.log{
+  display: flex;
+  align-items: center;
+  padding-left: 110px;
+  color: rgb(46, 46, 5);
+}
+@media (max-width: 480px) {
+  .login {
+    display: flex;
+    margin-left: 40px;
+    padding: 50px;
+  }
+}
+    </style>
+  </head>
+  <header>
+      <nav>
+        <div class="navigation">
+          <div class="navi">
+            <img src="/images restauranticon.png" class="portfolio-logo" />
+            <span class="rest">Res<span class="rest1">taurant</span></span>
+          </div>
+          <div class="nav">
+            <a href="/index.html"> Home </a>
+            <a href="/HTML/menu.html"> Menu </a>
+            <a href="/HTML/about.html"> About </a>
+            
+            <a href="/HTML/contact.html"> Contact</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+  <body>
+    <form>
+      <div class="login">
+      <h1 class="log">Login</h1>
+      <label for="name">Name</label>
+      <input id="type" type="text" required name="name"> </br>
+      <label for="email">Email</label>
+      <input id="email" type="text"/></br>
+      <label for="number">Number</label>
+      <input id="number" type="text"/> </br>
+     <a href="https://wa.me/237676696393"> <button class="submit"> Submit</button></a>
+      
+    </div>
+    </form>
+    <section>
+       <footer class="footers">
+
+      <p>Home</p></br>
+      <p>Menu</p></br>
+      <p>About</p></br>
+      <p>contact</p>
+    </footer>
+  </section>
+  </body>
+</html>

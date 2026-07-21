@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="next" href="business.html" />
+    <link rel="icon" href="/images restauranticon.png" type="image/png" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .navigation {
+  background-color: rgba(255, 255, 255, 0.842);
+}
+.portfolio-logo {
+  display: flex;
+  width: 30px;
+  border-radius: 6px;
+}
+.rest {
+  font-size: xx-large;
+  font-weight: bold;
+  color: rgb(189, 162, 10);
+}
+.rest1 {
+  color: rgb(0, 83, 11);
+  font-style: italic;
+  font-size: x-large;
+}
+.navi {
+  display: flex;
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+  font-weight: bold;
+}
+
+      .section1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background: #f7d8cd;
+        gap: 20px;
+      }
+      .card {
+        
+        width: 250px;
+        height: 400px;
+        background: #fff;
+        border-radius: 10px;
+        overflow: hidden;
+        position: relative;
+      }
+      .top {
+        height: 180px;
+        background: #f9a602;
+        position: relative;
+        padding: 20px;
+      }
+      .price {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background: white;
+        display: flex;
+        justify-content: center;
+        font-weight: bold;
+        padding-top: 18px;
+      }
+      .bottom {
+        display: flex;
+        justify-content: center;
+        margin: -40px;
+      }
+      .top::after {
+        content: "";
+        position: absolute;
+        bottom: -1px;
+        right: 0;
+        width: 100%;
+        height: 80%;
+        background: #fff;
+        clip-path: polygon(0% 100%, 100% 40%, 100% 100%);
+      }
+      .product {
+        height: 250px;
+        border-radius: 50%;
+        margin-left: 8px;
+      }
+      .menu {
+        font-size: 7em;
+        font-weight: bold;
+        color: #553b07;
+        background: #f9a70286;
+      }
+      .footers {
+  display: block;
+  justify-content: space-around;
+  text-align: center;
+  color: white;
+  margin-top: 50px;
+  background-color: #3a470367;
+}
+@media (max-width: 480px) {
+  .section1 {
+    display: flex;
+    flex-direction: column;
+  }
+}
+    </style>
+  </head>
+  <header>
+      <nav>
+        <div class="navigation">
+          <div class="navi">
+            <img src="/images restauranticon.png" class="portfolio-logo" />
+            <span class="rest">Res<span class="rest1">taurant</span></span>
+          </div>
+          <div class="nav">
+            <a href="/index.html"> Home </a>
+            <a href="/HTML/menu.html"> Menu </a>
+            <a href="/HTML/about.html"> About </a>
+            
+            <a href="/HTML/contact.html"> Contact</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+  <body>
+    <p class="menu"> MENU<p>
+    <section class="section1" id="menu">
+      
+    <div class="card">
+      
+      <div class="top">
+        <h3>Fried Rice</h3>
+        <p>Best Africa dishes taste heavenly and delicious</p>
+        <div class="price">$80</div>
+      </div>
+      <div class="botton">
+        <img src="/HTML/imagefriedrice-removebg-preview.png" class="product" />
+      </div>
+    </div>
+    <div class="card">
+      <div class="top">
+        <h3>Spiced Rice</h3>
+        <p>Best Africa dishes taste heavenly and delicious</p>
+        <div class="price">$60</div>
+      </div>
+      <div class="botton">
+        <img src="/HTML/imagefriedrice-removebg-preview.png" class="product" />
+      </div>
+    </div>
+    <div class="card">
+      <div class="top">
+        <h3>Jelllof Rice</h3>
+        <p>Best Africa dishes taste heavenly and delicious</p>
+        <div class="price">$100</div>
+      </div>
+      <div class="botton">
+        <img src="/HTML/imagefriedrice-removebg-preview.png" class="product" />
+      </div>
+    </div>
+    <div class="card">
+      <div class="top">
+        <h3>Beans Rice</h3>
+        <p>Best Africa dishes taste heavenly and delicious</p>
+        <div class="price">$50</div>
+      </div>
+      <div class="botton">
+        <img src="/HTML/imagefriedrice-removebg-preview.png" class="product" />
+      </div>
+    </div>
+  </section>
+     <section>
+    <footer class="footers">
+
+      <p>Home</p></br></br></br>
+      <p>Menu</p></br></br></br>
+      <p>About</p></br></br></br>
+      <p>contact</p>
+    </footer>
+    </section>
+  </body>
+</html>
